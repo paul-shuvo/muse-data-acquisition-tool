@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<cvcr>
+<subject ID="asdf">
+  <date>12052015</date>
+  <serial>asdf</serial>
+  <name>asdf</name>
+  <age>sadf</age>
+  <gender>Male</gender>
+</subject>
+<subject ID="dfg">
+  <date>12052015</date>
+  <serial>dfg</serial>
+  <name>dfg</name>
+  <age>dfg</age>
+  <gender>Male</gender>
+</subject>
+<subject ID="asdfsadf">
+  <date>12052015</date>
+  <serial>asdfsadf</serial>
+  <name>sadf</name>
+  <age>sadf</age>
+  <gender>Male</gender>
+</subject>
+</cvcr>
