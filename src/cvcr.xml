@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<cvcr>
+<subject ID="04">
+  <date>12052015</date>
+  <serial>04</serial>
+  <name>Person A</name>
+  <age>23</age>
+  <gender>Female</gender>
+</subject>
+<subject ID="05">
+  <date>12052015</date>
+  <serial>05</serial>
+  <name>Person B</name>
+  <age>19</age>
+  <gender>Male</gender>
+</subject>
+</cvcr>
