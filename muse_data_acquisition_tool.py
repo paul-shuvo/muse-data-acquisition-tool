@@ -6,7 +6,7 @@
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
-
+from __future__ import print_function
 import subprocess, time, signal, sys, os
 import lxml.etree
 import lxml.builder
@@ -37,52 +37,52 @@ class Ui_Widget(QtGui.QWidget):
         Widget.setObjectName(_fromUtf8("Widget"))
         Widget.resize(444, 423)
         self.label = QtGui.QLabel(self)
-        self.label.setGeometry(QtCore.QRect(50, 60, 81, 31))
-        self.label.setSizeIncrement(QtCore.QSize(0, 0))
+        self.label_name.setGeometry(QtCore.QRect(50, 60, 81, 31))
+        self.label_name.setSizeIncrement(QtCore.QSize(0, 0))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(20)
         font.setBold(False)
         font.setWeight(50)
-        self.label.setFont(font)
-        self.label.setObjectName(_fromUtf8("label"))
-        self.label_2 = QtGui.QLabel(self)
-        self.label_2.setGeometry(QtCore.QRect(50, 110, 81, 31))
+        self.label_name.setFont(font)
+        self.label_name.setObjectName(_fromUtf8("label"))
+        self.label_age = QtGui.QLabel(self)
+        self.label_age.setGeometry(QtCore.QRect(50, 110, 81, 31))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(20)
         font.setBold(False)
         font.setWeight(50)
-        self.label_2.setFont(font)
-        self.label_2.setObjectName(_fromUtf8("label_2"))
-        self.label_3 = QtGui.QLabel(self)
-        self.label_3.setGeometry(QtCore.QRect(50, 160, 91, 31))
+        self.label_age.setFont(font)
+        self.label_age.setObjectName(_fromUtf8("label_2"))
+        self.label_gender = QtGui.QLabel(self)
+        self.label_gender.setGeometry(QtCore.QRect(50, 160, 91, 31))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(20)
         font.setBold(False)
         font.setWeight(50)
-        self.label_3.setFont(font)
-        self.label_3.setObjectName(_fromUtf8("label_3"))
-        self.label_4 = QtGui.QLabel(self)
-        self.label_4.setGeometry(QtCore.QRect(50, 210, 111, 31))
+        self.label_gender.setFont(font)
+        self.label_gender.setObjectName(_fromUtf8("label_3"))
+        self.label_serial = QtGui.QLabel(self)
+        self.label_serial.setGeometry(QtCore.QRect(50, 210, 111, 31))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(20)
         font.setBold(False)
         font.setWeight(50)
-        self.label_4.setFont(font)
-        self.label_4.setObjectName(_fromUtf8("label_4"))
-        self.label_5 = QtGui.QLabel(self)
-        self.label_5.setGeometry(QtCore.QRect(50, 260, 111, 31))
-        self.label_5.setSizeIncrement(QtCore.QSize(0, 0))
+        self.label_serial.setFont(font)
+        self.label_serial.setObjectName(_fromUtf8("label_4"))
+        self.label_experiment = QtGui.QLabel(self)
+        self.label_experiment.setGeometry(QtCore.QRect(50, 260, 111, 31))
+        self.label_experiment.setSizeIncrement(QtCore.QSize(0, 0))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(20)
         font.setBold(False)
         font.setWeight(50)
-        self.label_5.setFont(font)
-        self.label_5.setObjectName(_fromUtf8("label_5"))
+        self.label_experiment.setFont(font)
+        self.label_experiment.setObjectName(_fromUtf8("label_5"))
         self.pushButton = QtGui.QPushButton(self)
         self.pushButton.setGeometry(QtCore.QRect(180, 360, 151, 31))
         font = QtGui.QFont()
@@ -94,28 +94,28 @@ class Ui_Widget(QtGui.QWidget):
         self.comboBox.setGeometry(QtCore.QRect(170, 260, 181, 31))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
         self.lineEdit = QtGui.QLineEdit(self)
-        self.lineEdit.setGeometry(QtCore.QRect(170, 59, 181, 31))
-        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
-        self.lineEdit_2 = QtGui.QLineEdit(self)
-        self.lineEdit_2.setGeometry(QtCore.QRect(170, 109, 181, 31))
-        self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
-        self.lineEdit_3 = QtGui.QLineEdit(self)
-        self.lineEdit_3.setGeometry(QtCore.QRect(170, 209, 181, 31))
-        self.lineEdit_3.setObjectName(_fromUtf8("lineEdit_3"))
+        self.lineEdit_name.setGeometry(QtCore.QRect(170, 59, 181, 31))
+        self.lineEdit_name.setObjectName(_fromUtf8("lineEdit"))
+        self.lineEdit_age = QtGui.QLineEdit(self)
+        self.lineEdit_age.setGeometry(QtCore.QRect(170, 109, 181, 31))
+        self.lineEdit_age.setObjectName(_fromUtf8("lineEdit_2"))
+        self.lineEdit_serial = QtGui.QLineEdit(self)
+        self.lineEdit_serial.setGeometry(QtCore.QRect(170, 209, 181, 31))
+        self.lineEdit_serial.setObjectName(_fromUtf8("lineEdit_3"))
         self.radioButton = QtGui.QRadioButton(self)
-        self.radioButton.setGeometry(QtCore.QRect(170, 170, 82, 17))
+        self.radioButton_Male.setGeometry(QtCore.QRect(170, 170, 82, 17))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(14)
-        self.radioButton.setFont(font)
-        self.radioButton.setObjectName(_fromUtf8("radioButton"))
-        self.radioButton_2 = QtGui.QRadioButton(self)
-        self.radioButton_2.setGeometry(QtCore.QRect(280, 170, 82, 17))
+        self.radioButton_Male.setFont(font)
+        self.radioButton_Male.setObjectName(_fromUtf8("radioButton"))
+        self.radioButton_Female = QtGui.QRadioButton(self)
+        self.radioButton_Female.setGeometry(QtCore.QRect(280, 170, 82, 17))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Times New Roman"))
         font.setPointSize(14)
-        self.radioButton_2.setFont(font)
-        self.radioButton_2.setObjectName(_fromUtf8("radioButton_2"))
+        self.radioButton_Female.setFont(font)
+        self.radioButton_Female.setObjectName(_fromUtf8("radioButton_2"))
 
         self.retranslateUi(self)
         QtCore.QMetaObject.connectSlotsByName(self)
@@ -124,14 +124,14 @@ class Ui_Widget(QtGui.QWidget):
 
     def retranslateUi(self, Widget):
         Widget.setWindowTitle(_translate("CVCR", "CVCR", None))
-        self.label.setText(_translate("Widget", "Name", None))
-        self.label_2.setText(_translate("Widget", "Age", None))
-        self.label_3.setText(_translate("Widget", "Gender", None))
-        self.label_4.setText(_translate("Widget", "Serial No.", None))
-        self.label_5.setText(_translate("Widget", "Exp. No.", None))
+        self.label_name.setText(_translate("Widget", "Name", None))
+        self.label_age.setText(_translate("Widget", "Age", None))
+        self.label_gender.setText(_translate("Widget", "Gender", None))
+        self.label_serial.setText(_translate("Widget", "Serial No.", None))
+        self.label_experiment.setText(_translate("Widget", "Exp. No.", None))
         self.pushButton.setText(_translate("Widget", "Start", None))
-        self.radioButton.setText(_translate("Widget", "Male", None))
-        self.radioButton_2.setText(_translate("Widget", "Female", None))
+        self.radioButton_Male.setText(_translate("Widget", "Male", None))
+        self.radioButton_Female.setText(_translate("Widget", "Female", None))
 
         self.pushButton.clicked.connect(self.Start_Muse)
         list1 = [
@@ -154,12 +154,12 @@ class Ui_Widget(QtGui.QWidget):
         CVCR = E.cvcr
         today = date.today()
         today=today.strftime('%d%m%Y')
-        fileName=today+"_"+self.lineEdit_3.text()
-        #fileName=self.lineEdit_3.text()+'_'+self.lineEdit.text()+'_'+self.lineEdit_2.text()
-        if self.radioButton.isChecked():
-            str=self.radioButton.text()
+        fileName=today+"_"+self.lineEdit_serial.text()
+        #fileName=self.lineEdit_serial.text()+'_'+self.lineEdit_name.text()+'_'+self.lineEdit_age.text()
+        if self.radioButton_Male.isChecked():
+            str=self.radioButton_Male.text()
         else:
-            str=self.radioButton_2.text()
+            str=self.radioButton_Female.text()
         print(str)
         #fileName=fileName+'_'+str+'_'+self.comboBox.currentText()
         vid_dir=''
@@ -178,11 +178,10 @@ class Ui_Widget(QtGui.QWidget):
             fileName=fileName+'_'+str+'_'+'Experiment4'
         print (fileName)
         #fileName=str(fileName)
-        save_xml(E, today, self.lineEdit.text(), self.lineEdit_2.text(), self.lineEdit_3.text(), str)
+        save_xml(E, today, self.lineEdit_name.text(), self.lineEdit_age.text(), self.lineEdit_serial.text(), str)
         vid_player(vid_dir, fileName)
 
 def save_xml(E, date, name, age, serial, gender):
-
     #CVCR=E.cvcr
     SUBJECT = E.subject
     DATE = E.date
@@ -200,20 +199,21 @@ def save_xml(E, date, name, age, serial, gender):
     # the_doc.append(DOC())
 
     DOC = lxml.etree.tostring(the_doc, pretty_print=True)
-
-
     output_file = open( 'cvcr.xml', 'a' )
     output_file.seek(20)
     #output_file.write( '<?xml version="1.0"?>' )
     output_file.write(DOC)
     output_file.close()
+    
+def signal_handler(signal, frame):
+    time.sleep(1)
+    print('Ctrl+C received in wrapper.py') 
+
 def save_data(sleep_time, muse_command):
     command=muse_command
 
     #command = "muse-player -l udp:5001 -M output.mat"
-    def signal_handler(signal, frame):
-      time.sleep(1)
-      print 'Ctrl+C received in wrapper.py'
+    
 
     signal.signal(signal.SIGINT, signal_handler)
     print 'command Starting'
